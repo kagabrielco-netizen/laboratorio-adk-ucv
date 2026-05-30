@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Poetry y Tests
+.pytest_cache/
+poetry.lock
+
+# Variables de entorno (Secretos)
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# SonarQube / SonarCloud
+.sonar/
+.scannerwork/
